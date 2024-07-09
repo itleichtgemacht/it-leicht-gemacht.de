@@ -1,0 +1,226 @@
+h1, h2, h3 {
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-weight: bold;
+    
+}
+
+code {
+    background-color: rgb(189, 189, 189);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin-left: 30px;
+    color: black;
+}
+
+p {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+article::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+.header-top {
+    margin: 10px;
+    box-shadow: 5px 5px 10px  rgba(50, 180, 0, 0.562);
+    border-radius: 15px;
+}
+
+.header-bild {
+    margin: 10px;
+    box-shadow: 0px 10px 35px green;
+
+}
+
+#info-banner {
+	padding: 0.5em 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+	#info-banner {
+		background: no-repeat -5% / 10% 95% linear-gradient(91deg, #FF000020 0%, green 50%, #FF000020 100%), rgb(71, 71, 71);
+		animation: 2s linear 0s infinite alternate wonky_cylon;
+	}
+	#info-banner {
+		text-align: center;
+	}
+}
+
+@keyframes wonky_cylon {
+	from {
+		background-position: -10% -100%;
+	}
+	to {
+		background-position: 110% 200%;
+	}
+}
+
+
+.user-panel {
+    background-color: rgb(214, 214, 214);
+}
+
+.home-h2 {
+    padding: 20px;
+    margin-bottom: 25px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+    box-shadow: 10px 10px 15px  rgba(50, 180, 0, 0.562);
+    border-radius: 15px;
+
+}
+
+.post-h2 {
+    padding: 20px;
+    margin-bottom: 25px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+    box-shadow: 10px 10px 15px  rgba(50, 180, 0, 0.562);
+    border-radius: 15px;
+}
+
+.post {
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px gray;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 15px;
+}
+
+.post-content {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.post-banner_bild {
+    margin: 15px;
+    padding: 15px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.post-container-header {
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+}
+  
+.post-link-detail {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+}
+
+.btn-blog {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;   
+    margin-bottom: 40px; 
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+}
+
+.btn-post-danger {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;   
+    margin-bottom: 40px; 
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+}
+
+.post-detail {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;   
+    margin-top: 10px; 
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+
+}
+
+.div-btn-rechts {
+    margin: 10px;
+    float: right;
+}
+
+.div-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;    
+    margin-bottom: 25px;
+}
+
+.sidebar {
+    margin: 10px;
+    background-image:linear-gradient(135deg, rgb(89, 145, 68) 40%, rgba(50, 180, 0, 0.562) 70%);
+    border-radius: 15px;
+  }
+
+
+  /* Add some responsive styles */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: static;
+      padding-top: 20px;
+    }
+  }
+  /* Customize the footer style */
+  footer {
+    margin: 10px;
+    background-color: #115700b6;
+    border-radius: 15px;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 10;
+  }

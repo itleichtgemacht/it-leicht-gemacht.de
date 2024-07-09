@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="d-flex align-items-center">
+    <h1 class="m-auto">Post Details</h1>
+</div>
+<hr>
+
+<article class="post">
+    <div class="post-container-header">
+       
+        <p>
+            <img class="post-banner_bild" src="/static/{{ post.banner_bild.url }}" />
+            <a href="{% url 'post_detail' post.pk %}" class="post-link-detail">{{ post.title }}</a>
+        </p>
+        
+        <div>
+            <div class="div-btn-rechts">
+                {% if user.is_authenticated %}
+                    <a href="{% url 'post_update' post.pk %}" class="btn-blog">Bearbeiten</a>
+                    <a href="{% url 'post_delete' post.pk %}" class="btn-post-danger">Löschen</a>
+                {% endif  %}
+                <a href="{% url 'post_list' %}" class="btn-blog">Zurück zur Liste</a>
+
+            </div>
+            <strong>veröffentlicht am: </strong>{{ post.published_date|date:"d. F Y h:m" }}
+        </div>
+        </div>
+    <div class="post-content">{{ post.content|safe }}</div>
+</article>
+
+
+{% endblock %}

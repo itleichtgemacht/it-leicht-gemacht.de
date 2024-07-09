@@ -1,0 +1,18 @@
+<li>
+    <a href="#submenu-categorie" data-bs-toggle="collapse" class="nav-link text-white px-0 align-middle">
+      <i class="fs-4 bi-tags"></i><span class="ms-1 d-none d-sm-inline">Kategorie</span> 
+    </a>
+    <!-- class: show klappt das Menu aus -->
+    <ul class="collapse nav flex-column text-white ms-1" id="submenu-categorie" data-bs-parent="#menu">
+        <li><a href="{% url 'post_list_categorie' filter='Python' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">Python</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='Django' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">Django</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='BootStrap' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">BootStrap</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='HTML' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">HTML</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='CSS' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">CSS</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='Microsoft' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">Microsoft</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='Office' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">Office</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='Linux' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">Linux</span>  </a></li>
+        <li><a href="{% url 'post_list_categorie' filter='github' %}" class="nav-link text-white px-0"> <span class="d-none d-sm-inline">github.com</span>  </a></li>
+    </ul>
+  </li>
+

@@ -1,0 +1,11 @@
+h1, h2, h3 {
+    color: green;
+}
+
+code {
+    background-color: rgb(189, 189, 189);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin-left: 30px;
+}
+

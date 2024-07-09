@@ -1,0 +1,15 @@
+{% extends 'index.html' %} 
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="d-flex align-items-center">
+  <h1 class="m-auto">{% if post.pk %}Beitrag bearbeiten{% else %}Neuen Beitrag hinzufügen{% endif %}</h1>
+</div>
+<hr>
+<form method="post"  enctype="multipart/form-data">
+  <button type="submit" class="btn-blog" name="Speichern" >Speichern</button>
+  <button type="submit" class="btn-post-danger" name="Abbruch" >Abbruch</button>
+  {% csrf_token %}
+  {{ form|crispy }}
+</form>
+{% endblock %}

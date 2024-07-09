@@ -1,0 +1,38 @@
+[2023-12-31 16:11:42 : INFO] - Re_Smush_It_Task with attachment ID : 659, autocreated on : December 31, 2023 04:11:42 
+[2023-12-31 16:14:02 : INFO] - Re_Smush_It_Task with attachment ID : 663, autocreated on : December 31, 2023 04:14:02 
+[2023-12-31 16:20:09 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2023-12-31 16:20:09 : DEBUG] - Lock option (updraft_lock_smush, ns_infooptions) was created in the database 
+[2023-12-31 16:20:09 : INFO] - Lock (updraft_lock_smush, ns_infooptions) acquired after initialising the database 
+[2023-12-31 16:20:09 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2023-12-31 16:20:09 : INFO] - Re_Smush_It_Task with attachment ID : 659, autocreated on : December 31, 2023 04:11:42 
+[2023-12-31 16:20:09 : INFO] - File: ITLG-bietet-neuen-Service-2024-netzsprung-scaled.jpg, Compression quality: 92 
+[2023-12-31 16:20:09 : INFO] - Backing up the original image - ITLG-bietet-neuen-Service-2024-netzsprung-scaled-updraft-pre-smush-original.jpg 
+[2023-12-31 16:20:11 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-31 16:20:11 : INFO] - Successfully optimized the image - /var/www/vhosts/netzsprung.info/httpdocs/wp-content/uploads/ITLG-bietet-neuen-Service-2024-netzsprung-scaled.jpg.Die Datei wurde komprimiert von 74.34 KB auf 69.52 KB, bei einer Ersparnis von 6.49 Prozent, durch WP-Optimize 
+[2023-12-31 16:20:11 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2023-12-31 16:20:11 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2023-12-31 16:20:11 : INFO] - Re_Smush_It_Task with attachment ID : 663, autocreated on : December 31, 2023 04:14:02 
+[2023-12-31 16:20:11 : INFO] - File: cropped-ITLG-bietet-neuen-Service-2024-netzsprung-scaled-1.jpg, Compression quality: 92 
+[2023-12-31 16:20:11 : INFO] - Backing up the original image - cropped-ITLG-bietet-neuen-Service-2024-netzsprung-scaled-1-updraft-pre-smush-original.jpg 
+[2023-12-31 16:20:13 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-31 16:20:13 : INFO] - Successfully optimized the image - /var/www/vhosts/netzsprung.info/httpdocs/wp-content/uploads/cropped-ITLG-bietet-neuen-Service-2024-netzsprung-scaled-1.jpg.Die Datei wurde komprimiert von 76.12 KB auf 70.91 KB, bei einer Ersparnis von 6.84 Prozent, durch WP-Optimize 
+[2023-12-31 16:20:13 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2023-12-31 16:20:13 : INFO] - Lock option (updraft_lock_smush, ns_infooptions) released 
+[2023-12-31 16:20:13 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2023-12-31 16:20:13 : INFO] - Lock option (updraft_lock_smush, ns_infooptions) was deleted from the database 
+[2023-12-31 16:20:13 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2023-12-31 16:41:37 : INFO] - Re_Smush_It_Task with attachment ID : 669, autocreated on : December 31, 2023 04:41:37 
+[2023-12-31 16:48:09 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2023-12-31 16:48:09 : DEBUG] - Lock option (updraft_lock_smush, ns_infooptions) was created in the database 
+[2023-12-31 16:48:09 : INFO] - Lock (updraft_lock_smush, ns_infooptions) acquired after initialising the database 
+[2023-12-31 16:48:09 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2023-12-31 16:48:09 : INFO] - Re_Smush_It_Task with attachment ID : 669, autocreated on : December 31, 2023 04:41:37 
+[2023-12-31 16:48:09 : INFO] - File: Neujahr-2024.jpg, Compression quality: 92 
+[2023-12-31 16:48:09 : INFO] - Backing up the original image - Neujahr-2024-updraft-pre-smush-original.jpg 
+[2023-12-31 16:48:10 : INFO] - There were no WebP conversion tools found on your server. 
+[2023-12-31 16:48:10 : INFO] - Successfully optimized the image - /var/www/vhosts/netzsprung.info/httpdocs/wp-content/uploads/Neujahr-2024.jpg.Die Datei wurde komprimiert von 226.00 KB auf 215.06 KB, bei einer Ersparnis von 4.84 Prozent, durch WP-Optimize 
+[2023-12-31 16:48:10 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2023-12-31 16:48:10 : INFO] - Lock option (updraft_lock_smush, ns_infooptions) released 
+[2023-12-31 16:48:10 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2023-12-31 16:48:10 : INFO] - Lock option (updraft_lock_smush, ns_infooptions) was deleted from the database 
+[2023-12-31 16:48:10 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
